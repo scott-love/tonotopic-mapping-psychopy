@@ -1,5 +1,5 @@
 # tonotopic-mapping-psychopy
-This code was created as part of the SheepVoicefMRI ANR project.
+This code was created as part of the [SheepVoicefMRI project](https://anr.fr/Project-ANR-20-CE20-0001) funded by the ANR (ANR-20-CE20-0001).
 
 The code can be used with [PsychoPy](https://www.psychopy.org).
 

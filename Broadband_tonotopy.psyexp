@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2021.2.3">
+  <Settings>
+    <Param name="Audio latency priority" updates="None" val="use prefs" valType="str"/>
+    <Param name="Audio lib" updates="None" val="use prefs" valType="str"/>
+    <Param name="Completed URL" updates="None" val="" valType="str"/>
+    <Param name="Data file delimiter" updates="None" val="auto" valType="str"/>
+    <Param name="Data filename" updates="None" val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code"/>
+    <Param name="Enable Escape" updates="None" val="True" valType="bool"/>
+    <Param name="Experiment info" updates="None" val="{'participant':'', 'session':'001'}" valType="code"/>
+    <Param name="Force stereo" updates="None" val="True" valType="bool"/>
+    <Param name="Full-screen window" updates="None" val="True" valType="bool"/>
+    <Param name="HTML path" updates="None" val="" valType="str"/>
+    <Param name="Incomplete URL" updates="None" val="" valType="str"/>
+    <Param name="Monitor" updates="None" val="testMonitor" valType="str"/>
+    <Param name="Resources" updates="None" val="[]" valType="list"/>
+    <Param name="Save csv file" updates="None" val="False" valType="bool"/>
+    <Param name="Save excel file" updates="None" val="False" valType="bool"/>
+    <Param name="Save hdf5 file" updates="None" val="False" valType="bool"/>
+    <Param name="Save log file" updates="None" val="True" valType="bool"/>
+    <Param name="Save psydat file" updates="None" val="True" valType="bool"/>
+    <Param name="Save wide csv file" updates="None" val="True" valType="bool"/>
+    <Param name="Screen" updates="None" val="1" valType="num"/>
+    <Param name="Show info dlg" updates="None" val="True" valType="bool"/>
+    <Param name="Show mouse" updates="None" val="False" valType="bool"/>
+    <Param name="Units" updates="None" val="height" valType="str"/>
+    <Param name="Use version" updates="None" val="" valType="str"/>
+    <Param name="Window size (pixels)" updates="None" val="(1024, 768)" valType="list"/>
+    <Param name="blendMode" updates="None" val="avg" valType="str"/>
+    <Param name="color" updates="None" val="$[0,0,0]" valType="color"/>
+    <Param name="colorSpace" updates="None" val="rgb" valType="str"/>
+    <Param name="elAddress" updates="None" val="100.1.1.1" valType="str"/>
+    <Param name="elDataFiltering" updates="None" val="FILTER_LEVEL_2" valType="str"/>
+    <Param name="elLiveFiltering" updates="None" val="FILTER_LEVEL_OFF" valType="str"/>
+    <Param name="elModel" updates="None" val="EYELINK 1000 DESKTOP" valType="str"/>
+    <Param name="elPupilAlgorithm" updates="None" val="ELLIPSE_FIT" valType="str"/>
+    <Param name="elPupilMeasure" updates="None" val="PUPIL_AREA" valType="str"/>
+    <Param name="elSampleRate" updates="None" val="1000" valType="num"/>
+    <Param name="elSimMode" updates="None" val="False" valType="bool"/>
+    <Param name="elTrackEyes" updates="None" val="RIGHT_EYE" valType="str"/>
+    <Param name="elTrackingMode" updates="None" val="PUPIL_CR_TRACKING" valType="str"/>
+    <Param name="expName" updates="None" val="truc" valType="str"/>
+    <Param name="exportHTML" updates="None" val="on Sync" valType="str"/>
+    <Param name="eyetracker" updates="None" val="None" valType="str"/>
+    <Param name="gpAddress" updates="None" val="127.0.0.1" valType="str"/>
+    <Param name="gpPort" updates="None" val="4242" valType="num"/>
+    <Param name="logging level" updates="None" val="exp" valType="code"/>
+    <Param name="mgBlink" updates="None" val="MIDDLE_BUTTON" valType="list"/>
+    <Param name="mgMove" updates="None" val="CONTINUOUS" valType="str"/>
+    <Param name="mgSaccade" updates="None" val="0.5" valType="num"/>
+    <Param name="tbLicenseFile" updates="None" val="" valType="str"/>
+    <Param name="tbModel" updates="None" val="" valType="str"/>
+    <Param name="tbSampleRate" updates="None" val="60" valType="num"/>
+    <Param name="tbSerialNo" updates="None" val="" valType="str"/>
+  </Settings>
+  <Routines>
+    <Routine name="sync">
+      <TextComponent name="starttext">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="num"/>
+        <Param name="name" updates="None" val="starttext" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Press “s” to start" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp">
+        <Param name="allowedKeys" updates="constant" val="'s'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="False" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="play_tone">
+      <CodeComponent name="code_Tones">
+        <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="count=0" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="current_volumes=volumes[count]&amp;#10;current_tones=tones[count]&amp;#10;current_bands=bands[count]" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Py" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="if count==2904:&amp;#10;    count=0&amp;#10;else: count+=1&amp;#10;&amp;#10;&amp;#10;thisExp.addData('volume', current_volumes)&amp;#10;thisExp.addData('tones', current_tones)&amp;#10;thisExp.addData('band', current_bands)" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="code_Tones" valType="code"/>
+      </CodeComponent>
+      <SoundComponent name="Tones">
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="hamming" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="Tones" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="sound" updates="set every repeat" val="$current_tones" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.025" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="0.075" valType="code"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+        <Param name="volume" updates="set every repeat" val="current_volumes" valType="num"/>
+      </SoundComponent>
+    </Routine>
+    <Routine name="setup">
+      <CodeComponent name="code">
+        <Param name="Before Experiment" updates="constant" val="import random&amp;#10;import numpy as np" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="frequencies = np.arange(125,8000)&amp;#10;&amp;#10;dx = 4/7875&amp;#10;X  = np.arange(-2, 2, dx)&amp;#10;Y  = np.exp(-X ** 2)&amp;#10;Y /= (dx * Y).sum()&amp;#10;CY = np.cumsum(Y * dx)&amp;#10;CY = CY/sum(CY)&amp;#10;&amp;#10;band = ['low','high']&amp;#10;sband = np.repeat(&quot;silence&quot;,88)&amp;#10;hband = np.repeat(&quot;high&quot;,88)&amp;#10;lband = np.repeat(&quot;low&quot;,88)&amp;#10;svolume = np.ones(88)*0&amp;#10;lvolume = np.ones(88)*1&amp;#10;hvolume = np.ones(88)*1&amp;#10;&amp;#10;tones = np.ones(88)*100&amp;#10;bands = sband&amp;#10;volumes = svolume" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="tones = np.ones(88)*100&amp;#10;bands = sband&amp;#10;volumes = svolume&amp;#10;&amp;#10;for i in range (1,9):&amp;#10;  random.shuffle(band)&amp;#10;&amp;#10;  if band[0] == 'low':&amp;#10;    tones = np.hstack((tones, np.random.choice(frequencies,88,p=CY[::-1])))&amp;#10;    bands = np.hstack((bands,lband))&amp;#10;    volumes = np.hstack((volumes,lvolume))&amp;#10;    tones = np.hstack((tones, np.ones(88)*100))&amp;#10;    bands = np.hstack((bands,sband))&amp;#10;    volumes = np.hstack((volumes,svolume))&amp;#10;    tones = np.hstack((tones, np.random.choice(frequencies,88,p=CY)))&amp;#10;    bands = np.hstack((bands,hband))&amp;#10;    volumes = np.hstack((volumes,hvolume))&amp;#10;    tones = np.hstack((tones, np.ones(88)*100))&amp;#10;    bands = np.hstack((bands,sband))&amp;#10;    volumes = np.hstack((volumes,svolume))&amp;#10;  else:&amp;#10;    tones = np.hstack((tones, np.random.choice(frequencies,88,p=CY)))&amp;#10;    bands = np.hstack((bands,hband))&amp;#10;    volumes = np.hstack((volumes,hvolume))&amp;#10;    tones = np.hstack((tones, np.ones(88)*100))&amp;#10;    bands = np.hstack((bands,sband))&amp;#10;    volumes = np.hstack((volumes,svolume))&amp;#10;    tones = np.hstack((tones, np.random.choice(frequencies,88,p=CY[::-1])))&amp;#10;    bands = np.hstack((bands,lband))&amp;#10;    volumes = np.hstack((volumes,lvolume))&amp;#10;    tones = np.hstack((tones, np.ones(88)*100))&amp;#10;    bands = np.hstack((bands,sband))&amp;#10;    volumes = np.hstack((volumes,svolume))" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="for i in range (1,9):&amp;#10;  random.shuffle(band)&amp;#10;&amp;#10;  if band[0] == 'low':&amp;#10;    tones = np.hstack((tones, np.random.choice(frequencies,88,p=CY[::-1])))&amp;#10;    bands = np.hstack((bands,lband))&amp;#10;    volumes = np.hstack((volumes,lvolume))&amp;#10;    tones = np.hstack((tones, np.ones(88)*100))&amp;#10;    bands = np.hstack((bands,sband))&amp;#10;    volumes = np.hstack((volumes,svolume))&amp;#10;    tones = np.hstack((tones, np.random.choice(frequencies,88,p=CY)))&amp;#10;    bands = np.hstack((bands,hband))&amp;#10;    volumes = np.hstack((volumes,hvolume))&amp;#10;    tones = np.hstack((tones, np.ones(88)*100))&amp;#10;    bands = np.hstack((bands,sband))&amp;#10;    volumes = np.hstack((volumes,svolume))&amp;#10;  else:&amp;#10;    tones = np.hstack((tones, np.random.choice(frequencies,88,p=CY)))&amp;#10;    bands = np.hstack((bands,hband))&amp;#10;    volumes = np.hstack((volumes,hvolume))&amp;#10;    tones = np.hstack((tones, np.ones(88)*100))&amp;#10;    bands = np.hstack((bands,sband))&amp;#10;    volumes = np.hstack((volumes,svolume))&amp;#10;    tones = np.hstack((tones, np.random.choice(frequencies,88,p=CY[::-1])))&amp;#10;    bands = np.hstack((bands,lband))&amp;#10;    volumes = np.hstack((volumes,lvolume))&amp;#10;    tones = np.hstack((tones, np.ones(88)*100))&amp;#10;    bands = np.hstack((bands,sband))&amp;#10;    volumes = np.hstack((volumes,svolume))" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Py" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="#thisExp.addData('volume', volumes)&amp;#10;#thisExp.addData('tones', tones)&amp;#10;#thisExp.addData('band', bands)" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="code" valType="code"/>
+      </CodeComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="setup"/>
+    <Routine name="sync"/>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="2904" valType="num"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="play_tone"/>
+    <LoopTerminator name="trials"/>
+  </Flow>
+</PsychoPy2experiment>

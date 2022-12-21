@@ -10,4 +10,6 @@ The file **Broadband_tonotopy.psyexp** presents pure tone beeps of different fre
 
 The file **broadband_tonotopy_abs.psyexp** is the same as Broadband_tonotopy.psyexp except that there is only a silence block after each pair of low and high blocks : low, high silence, low, high, silence. Again the order of low and high blocks is randomised.
 
+The file **broadband_tonotopy_sparse.psyexp** presents the low and high blocks of pure tones in a sparse sampling fMRI acquisition paradigm. That is, sounds are played during a time when there is no fMRI volume acquisition. A single whole-head volume is acquired after each sound block. In practice, due to how the acquisition is setup on the MRI scanner, there is a volume acquired followed by a delay.
+
 This code was created by Camille Pluchot & Scott Love as part of the [SheepVoicefMRI project](https://anr.fr/Project-ANR-20-CE20-0001) funded by the ANR (ANR-20-CE20-0001).

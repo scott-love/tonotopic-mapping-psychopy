@@ -15,4 +15,4 @@ The file **broadband_tonotopy_abs.psyexp** is the same as Broadband_tonotopy.psy
 
 The file **broadband_tonotopy_sparse.psyexp** presents the low and high blocks of pure tones in a sparse sampling fMRI acquisition paradigm. That is, sounds are played during a time when there is no fMRI volume acquisition. A single whole-head volume is acquired after each sound block. In practice, due to how the acquisition is setup on the MRI scanner, there is a volume acquired followed by a delay.
 
-### Sounds created during before experiment
+### Sounds created before experiment
